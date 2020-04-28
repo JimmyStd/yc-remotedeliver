@@ -41,13 +41,13 @@ public class IpUtils
             ip = request.getRemoteAddr();
         }
 
-        return "0:0:0:0:0:0:0:1".equals(ip) ? "127.0.0.1" : ip;
+        return "0:0:0:0:0:0:0:1".equals(ip) ? "192.168.3.172" : ip;
     }
 
     public static boolean internalIp(String ip)
     {
         byte[] addr = textToNumericFormatV4(ip);
-        return internalIp(addr) || "127.0.0.1".equals(ip);
+        return internalIp(addr) || "192.168.3.172".equals(ip);
     }
 
     private static boolean internalIp(byte[] addr)

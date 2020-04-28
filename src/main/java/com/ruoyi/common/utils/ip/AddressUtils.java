@@ -1,3 +1,4 @@
+/*
 package com.ruoyi.common.utils.ip;
 
 import org.slf4j.Logger;
@@ -7,11 +8,13 @@ import com.ruoyi.common.utils.StringUtils;
 import com.ruoyi.common.utils.http.HttpUtils;
 import com.ruoyi.framework.config.RuoYiConfig;
 
+*/
 /**
  * 获取地址类
  * 
  * @author ruoyi
- */
+ *//*
+
 public class AddressUtils
 {
     private static final Logger log = LoggerFactory.getLogger(AddressUtils.class);
@@ -43,3 +46,4 @@ public class AddressUtils
         return address;
     }
 }
+*/
